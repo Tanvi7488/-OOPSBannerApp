@@ -1,13 +1,15 @@
-public class OopsBanner{
-    public static void main (String args[]){
+public class OopsBanner {
 
-        System.out.println(" ***   ***   ******    ***** ");
-        System.out.println("** ** ** **  **   **  **  ");
-        System.out.println("** ** ** **  **   **  **  ");
-        System.out.println("** ** ** **  ******    ***** ");
-        System.out.println("** ** ** **  **            ** ");
-        System.out.println("** ** ** **  **           **  ");
-        System.out.println(" ***   ***   **       ***** ");
+    public static void main(String[] args) {
+
+        System.out.println(String.join(" ", " *** ", " *** ", " ***** ", " ***** "));
+        System.out.println(String.join(" ", "** **", "** **", "**  **", "**   "));
+        System.out.println(String.join(" ", "** **", "** **", "**  **", "**   "));
+        System.out.println(String.join(" ", "** **", "** **", "***** ", " *** "));
+        System.out.println(String.join(" ", "** **", "** **", "**    ", "   **"));
+        System.out.println(String.join(" ", "** **", "** **", "**    ", "   **"));
+        System.out.println(String.join(" ", " *** ", " *** ", "**    ", "**** "));
 
     }
+
 }
