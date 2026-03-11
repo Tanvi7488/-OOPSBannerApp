@@ -1,5 +1,13 @@
-public class OopsBanner1{
-	public static void main (String args[]){
-		System.out.println("OOPS");
-	}
+public class OopsBanner{
+    public static void main (String args[]){
+
+        System.out.println(" ***   ***   ******    ***** ");
+        System.out.println("** ** ** **  **   **  **  ");
+        System.out.println("** ** ** **  **   **  **  ");
+        System.out.println("** ** ** **  ******    ***** ");
+        System.out.println("** ** ** **  **            ** ");
+        System.out.println("** ** ** **  **           **  ");
+        System.out.println(" ***   ***   **       ***** ");
+
+    }
 }
